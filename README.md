@@ -1,3 +1,5 @@
+# Face Recognition Attendance System
+
 A Face recognition Attendance System which names the user using using OpenCV, NumPy, and the Face recognition library introcued by Adam Geitgey in 2017 with an accuracy of 99.38%,  a machine learning based project, inspired by @krishnaik06.
 
 To run -
@@ -46,8 +48,16 @@ note: This error originates from a subprocess, and is likely not a problem with 
 
 # New Error - Bad memory Allocation
 On searching, found out maybe due to high resolution of images, so Gemini gave a piece to attach before encoding pic
-def resize_image(image, max_size=800): height, width = image.shape[:2] if max(height, width) > max_size: ratio = max_size / float(max(height, width)) new_height = int(height * ratio) new_width = int(width * ratio) image = cv2.resize(image, (new_width, new_height)) return image
+
+def resize_image(image, max_size=800): 
+  height, width = image.shape[:2] 
+  if max(height, width) > max_size: 
+    ratio = max_size / float(max(height, width)) 
+    new_height = int(height * ratio) 
+    new_width = int(width * ratio) 
+    image = cv2.resize(image, (new_width, new_height)) 
+  return image
 
 #Resize each image in your images list before finding encodings images = [resize_image(img) for img in images]
 
-Runs Successfully -
+- Runs Successfully -

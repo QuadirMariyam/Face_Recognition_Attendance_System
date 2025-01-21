@@ -18,6 +18,7 @@ How to use -
   8. Install the libraries in requirements - $ pip install -r requirements.txt
   9. In case of dlib wheeling error "encountered error while trying to install package - dlib" (in 2022 edition)
 - Change the versions, cmake==3.25.2 and dlib==19.24.2 and pip install again
+  
   11. Open Sypder by - $ spyder
   12. If spyder is not present install - $ pip install spyder
   13. In case of metadata error " Preparing metadata (pyproject.toml) ... error

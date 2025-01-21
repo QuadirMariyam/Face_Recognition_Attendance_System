@@ -44,7 +44,7 @@ note: This error originates from a subprocess, and is likely not a problem with 
 - Run Spyder
 - Follow Krish Naik video
 
-New Error - Bad memory Allocation
+# New Error - Bad memory Allocation
 On searching, found out maybe due to high resolution of images, so Gemini gave a piece to attach before encoding pic
 def resize_image(image, max_size=800): height, width = image.shape[:2] if max(height, width) > max_size: ratio = max_size / float(max(height, width)) new_height = int(height * ratio) new_width = int(width * ratio) image = cv2.resize(image, (new_width, new_height)) return image
 

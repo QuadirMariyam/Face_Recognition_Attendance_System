@@ -47,7 +47,7 @@ error: metadata-generation-failed
 - Run Spyder
 - Follow Krish Naik video
 
-  #New Error - Bad memory Allocation
+  # New Error - Bad memory Allocation
   On searching, found out maybe due to high resolution of images, so Gemini gave a piece to attach before encoding pic
   -
 def resize_image(image, max_size=800):
@@ -59,7 +59,7 @@ def resize_image(image, max_size=800):
         image = cv2.resize(image, (new_width, new_height))
     return image
 
-# Resize each image in your images list before finding encodings
+#Resize each image in your images list before finding encodings
 images = [resize_image(img) for img in images]
 
 - Runs Successfully -

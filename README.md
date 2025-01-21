@@ -60,4 +60,4 @@ def resize_image(image, max_size=800):
 
 #Resize each image in your images list before finding encodings images = [resize_image(img) for img in images]
 
-- Runs Successfully -
+- - Runs Successfully -

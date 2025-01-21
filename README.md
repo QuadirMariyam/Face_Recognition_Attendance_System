@@ -1,4 +1,4 @@
-A Face recognition Attendance System which names the user using face recognition library, a machine learning based project, inspired by @krishnaik06
+A Face recognition Attendance System which names the user using using OpenCV, NumPy, and the Face recognition library introcued by Adam Geitgey in 2017 with an accuracy of 99.38%,  a machine learning based project, inspired by @krishnaik06.
 
 To run -
   1. In Anaconda prompt, - $conda activate myenv
@@ -22,6 +22,7 @@ How to use -
   8. Install the libraries in requirements - $ pip install -r requirements.txt
 In case of dlib wheeling error "encountered error while trying to install package - dlib" (in 2022 edition)
 - Change the versions, cmake==3.25.2 and dlib==19.24.2 and pip install again
+
   9. Open Sypder by - $ spyder
   10. If spyder is not present install - $ pip install spyder
 In case of metadata error " Preparing metadata (pyproject.toml) ... error error: subprocess-exited-with-error

@@ -1,6 +1,12 @@
 # Face_Recognition_Attendance_System
 A Face recognition Attendance System which names the user using face recognition library, a machine learning based project, inspired by @krishnaik06
 
+To run -
+  1. In Anaconda prompt, - $conda activate myenv
+  2. $ spyder
+  3. In Spyder, on the run section tap and press F5
+To stop, press on the red button on the same section
+
 Pre-requisites - In a folder - 
   1. 2 images in a folder - training images
   2. a csv file - Attendance

@@ -25,6 +25,15 @@ How to use -
 In case of dlib wheeling error "encountered error while trying to install package - dlib" (in 2022 edition)
 - Change the versions, cmake==3.25.2 and dlib==19.24.2 and pip install again
 
+____
+2025:
+  again got an error -  "error: subprocess-exited-with-error
+
+  × Building wheel for dlib (pyproject.toml) did not run successfully.
+  │ exit code: 1" 
+  installing dlib from conda worked - $ conda install conda-forge::dlib
+____
+
   9. Open Sypder by - $ spyder
   10. If spyder is not present install - $ pip install spyder
 In case of metadata error " Preparing metadata (pyproject.toml) ... error error: subprocess-exited-with-error
